@@ -1,0 +1,14 @@
+.loading::after{
+    content: "";
+    display: block;
+    width: 0%;
+    height: 10px;
+    background-color: blueviolet;
+    animation: loading 2s infinite;
+}
+
+@keyframes loading {
+    from {
+        
+    }
+}
